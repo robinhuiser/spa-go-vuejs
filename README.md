@@ -8,3 +8,10 @@ A side project in order to get familiar with the combination Golang / Vue.js as 
 # Vue.js cli
 $ yarn global add @vue/cli
 ~~~
+
+## Run the webapp and (ExpressJS) API
+
+~~~bash
+$ cd pkg/http/web/app
+$ PORT=3000 npm run dev
+~~~
